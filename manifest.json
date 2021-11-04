@@ -1,11 +1,11 @@
 {
-    "name": "front_r3a",
-    "short_name": "front_r3a",
+    "name": "3A Radiología Oral",
+    "short_name": "3A Rx",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "3A Radiología Oral.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
