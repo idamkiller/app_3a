@@ -71997,6 +71997,7 @@ q.y2=a
 q.M=b
 q.a1=c
 q.r2=H.a([],t.s)
+q.ag=H.a([],t.FQ)
 s=2
 return P.M(new S.bK(V.bF("GetStorage")).dQ(0,"/api/v1/patient/patient/imageLoadB64/"+a),$async$u6)
 case 2:o=e
@@ -72887,7 +72888,7 @@ return r.$1(s)},
 $S:0}
 S.bK.prototype={
 qL(){var s="application/json",r=t.N
-return P.au(["Content-type",s,"Accept",s,"Authorization","Bearer "+this.a,"Access-Control-Allow-Origin","*"],r,r)},
+return P.au(["Content-type",s,"Accept",s,"Authorization","Bearer "+this.a],r,r)},
 mY(){var s=0,r=P.E(t.H),q=this,p
 var $async$mY=P.A(function(a,b){if(a===1)return P.B(b,r)
 while(true)switch(s){case 0:p=q.c.gnn().QS(0,"token",t.N)
