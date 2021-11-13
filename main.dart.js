@@ -5227,8 +5227,11 @@ _.f=f
 _.r=g},
 a0W:function a0W(){},
 a0X:function a0X(){},
-aF8(a){var s=J.an(a)
-return new G.kg(s.h(a,"id"),s.h(a,"name"),s.h(a,"email"),s.h(a,"mobile"),s.h(a,"document"),s.h(a,"state"),s.h(a,"image_load_patient_count"),P.bc(J.mU(s.h(a,"image_load_patients"),new G.a5k()),!0,t.D4))},
+aF8(a){var s,r=J.an(a),q=r.h(a,"id"),p=r.h(a,"name"),o=r.h(a,"email")
+if(o==null)o=""
+s=r.h(a,"mobile")
+if(s==null)s=0
+return new G.kg(q,p,o,s,r.h(a,"document"),r.h(a,"state"),r.h(a,"image_load_patient_count"),P.bc(J.mU(r.h(a,"image_load_patients"),new G.a5k()),!0,t.D4))},
 kg:function kg(a,b,c,d,e,f,g,h){var _=this
 _.a=a
 _.b=b
