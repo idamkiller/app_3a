@@ -72921,7 +72921,7 @@ return P.D($async$Dt,r)},
 wg(a,b){var s=0,r=P.E(t.z),q,p=this
 var $async$wg=P.A(function(c,d){if(c===1)return P.B(d,r)
 while(true)switch(s){case 0:s=3
-return P.M(G.arb(P.Uj("http","127.0.0.1:8000",b,null),C.F.x0(a,null),p.qL()),$async$wg)
+return P.M(G.arb(P.Uj("https","api.radiologia3a.com.co",b,null),C.F.x0(a,null),p.qL()),$async$wg)
 case 3:q=d
 s=1
 break
@@ -72929,7 +72929,7 @@ case 1:return P.C(q,r)}})
 return P.D($async$wg,r)},
 tk(a){var s=0,r=P.E(t.z),q,p=this,o
 var $async$tk=P.A(function(b,c){if(b===1)return P.B(c,r)
-while(true)switch(s){case 0:o=P.Uj("http","127.0.0.1:8000",a,null)
+while(true)switch(s){case 0:o=P.Uj("https","api.radiologia3a.com.co",a,null)
 s=3
 return P.M(p.mY(),$async$tk)
 case 3:s=4
@@ -72941,7 +72941,7 @@ case 1:return P.C(q,r)}})
 return P.D($async$tk,r)},
 ji(a,b){var s=0,r=P.E(t.z),q,p=this,o
 var $async$ji=P.A(function(c,d){if(c===1)return P.B(d,r)
-while(true)switch(s){case 0:o=P.Uj("http","127.0.0.1:8000",b,null)
+while(true)switch(s){case 0:o=P.Uj("https","api.radiologia3a.com.co",b,null)
 s=3
 return P.M(p.mY(),$async$ji)
 case 3:s=4
@@ -72953,7 +72953,7 @@ case 1:return P.C(q,r)}})
 return P.D($async$ji,r)},
 kh(a,b){var s=0,r=P.E(t.z),q,p=this,o
 var $async$kh=P.A(function(c,d){if(c===1)return P.B(d,r)
-while(true)switch(s){case 0:o=P.Uj("http","127.0.0.1:8000",b,null)
+while(true)switch(s){case 0:o=P.Uj("https","api.radiologia3a.com.co",b,null)
 s=3
 return P.M(p.mY(),$async$kh)
 case 3:s=4
@@ -72966,7 +72966,7 @@ return P.D($async$kh,r)},
 dQ(a,b){return this.RS(0,b)},
 RS(a,b){var s=0,r=P.E(t.z),q,p=this,o
 var $async$dQ=P.A(function(c,d){if(c===1)return P.B(d,r)
-while(true)switch(s){case 0:o=P.Uj("http","127.0.0.1:8000",b,null)
+while(true)switch(s){case 0:o=P.Uj("https","api.radiologia3a.com.co",b,null)
 s=3
 return P.M(p.mY(),$async$dQ)
 case 3:s=4
