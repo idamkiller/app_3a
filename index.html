@@ -33,8 +33,29 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+  <!-- Firebase Configuration -->
+  <script type="module">
+    const firebaseConfig = {
+      apiKey: "AIzaSyA-p85f0H_rYoyHlPG8Zh_DrTpSpL_G28U",
+      authDomain: "radiologia3a-8a9a8.firebaseapp.com",
+      projectId: "radiologia3a-8a9a8",
+      storageBucket: "radiologia3a-8a9a8.appspot.com",
+      messagingSenderId: "773135629445",
+      appId: "1:773135629445:web:c18f87d8a82e3b9a7a3dec",
+      measurementId: "G-6TMN7D18ZR"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
+
+
   <script>
-    var serviceWorkerVersion = '2136002377';
+    var serviceWorkerVersion = '3637958905';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
